@@ -1,0 +1,68 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.view-headder {
+  display: flex;
+  align-items: center;
+}
+.Icons {
+  color: #042893;
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.ViewMorePage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.order-container {
+  margin-left: 45px;
+  margin-top: 20px;
+
+  .container {
+    margin: 45px;
+  }
+}
